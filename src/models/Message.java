@@ -11,14 +11,6 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
-
-
-
-
-
-
-
-@Entity
 @Entity
 @NamedQueries({
     @NamedQuery(
@@ -26,9 +18,6 @@ import javax.persistence.Table;
             query = "SELECT m FROM Message AS m ORDER BY m.id DESC"
             )
 })
-@Table(name = "messages")
-// ...（中略）...
-
 
 @Table(name = "messages")
 public class Message {
