@@ -10,7 +10,6 @@ import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
-
 @Entity
 @NamedQueries({
    @NamedQuery(
@@ -75,11 +74,17 @@ public class Task {
    public void setUpdated_at(Timestamp updated_at) {
        this.updated_at = updated_at;
    }
+   public void setTitle(String title) {
+       // TODO 自動生成されたメソッド・スタブ
+       
+   }
 
-public void setTitle(String title) {
-    // TODO 自動生成されたメソッド・スタブ
+   
+   
+   
+
     
-}
+
 
     
 
